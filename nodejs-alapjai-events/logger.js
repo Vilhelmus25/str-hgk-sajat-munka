@@ -3,13 +3,16 @@ class Logger {
 
     }
 
-    error(logType) {
-        console.log(logType);
+    loggerError(logType) {
+        console.error(logType);
     }
 
-    success(logType) {
+    loggerSuccess(logType) {
         console.log(logType);
     }
 }
-
-module.exports = Logger
+// const logger = new Logger()
+// logger.error('asd')
+module.exports = Object.freeze({
+    Logger
+})
