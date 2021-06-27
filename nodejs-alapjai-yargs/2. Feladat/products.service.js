@@ -1,47 +1,63 @@
-const ProductsService = async (ProductsApi) => {
-    let products = await ProductsApi.get()
+const ProductsService = async (productsApi) => {
+    let products = await productsApi.get()
 
     const getAllProducts = () => products
 
-    const sum = async (products) => {
-        let sum
-        let multiplicatedProducts = products.map(product => {
-            product.price * product.count
+    const sum = () => {
+        let sum = 0
+        let tempArray
+
+        tempArray = products.map((product) => {
+            let priceStr = product.price.slice(1, product.price.length)
+            let price
+            price = Number.parseInt(priceStr)
+            //console.log(price, product.count);
+            return product.count * price
         })
-        for (let mP of multiplicatedProducts) {
-            sum += mP
+
+        for (let arrayItem of tempArray) {
+            sum += arrayItem
+            //console.log(sum);
         }
-        // console.log(sum)
+
         return sum
     }
 
-    // const findproductById = (id) => products.find(product => product.id === id)
+    const avg = () => {
+        let avg = 0
+        let tempArray
+        let countSum = 0
 
-    // const generateNewproductId = () => {
-    //     const sortedProducts = [...products].sort((a, b) => a.id > b.id)
-    //     return sortedProducts[sortedProducts.length - 1].id + 1
-    // }
+        tempArray = products.map((product) => product.count)
 
-    // const createproduct = async ({ producer, title }) => {
-    //     const product = { id: generateNewproductId(), producer, title }
-    //     products = [...products, product]
-    //     await ProductsApi.save(products)
-    //     return product
-    // }
+        for (let arrayItem of tempArray) {
+            countSum += arrayItem
+        }
+        avg = sum() / countSum
+        //console.log(avg);
+        return avg
+    }
+    const lessthan = ({ count }) => {                        // a paramétert így adjuk meg, még ha egyedüli is
+        let lessthan = 0
+        let tempArray
 
-    // const editproduct = async ({ id, title, producer }) => {
-    //     products = products.map(product => product.id === id ? { id, producer, title } : product)
-    //     await ProductsApi.save(products)
-    //     return findproductById(id)
-    // }
+        tempArray = products.map((product) => product.count < count ? true : false)
+        //console.log(tempArray);
 
-    // const removeproduct = async (id) => {
-    //     products = products.filter(product => product.id !== id)
-    //     await ProductsApi.save(products)
-    // }
+        for (let arrayItem of tempArray) {
+            if (arrayItem === true) {
+                lessthan += 1
+            }
+        }
+
+        return lessthan
+    }
+
     return {
         getAllProducts,
         sum,
+        avg,
+        lessthan
     }
 }
 

@@ -6,8 +6,10 @@ const ProductsService = require('./products.service')
 const productsApi = ProductsApi('./products.json', 'products');
 (async () => {
     const {
-        getAllproducts,
-        sum
+        getAllProducts,
+        sum,
+        avg,
+        lessthan
     } = await ProductsService(productsApi)
 
 
@@ -18,42 +20,29 @@ const productsApi = ProductsApi('./products.json', 'products');
         .command({
             command: 'get',
             describe: 'Get all products',
-            handler: () => console.log(getAllproducts())
+            handler: () => console.log(getAllProducts())
         })
         .command({
             command: 'sum',
             describe: 'Sums the price * count',
-            handler: () =>
-                console.log(sum())
+            handler: (args) =>
+                console.log(sum(args))
+        })
+        .command({
+            command: 'avg',
+            describe: 'Counts the total product average',
+            handler: (args) =>
+                console.log(avg(args))
+        })
+        .command({
+            command: 'lessthan',
+            describe: 'Lists the products that have less by given value at stock',
+            builder: { count },
+            handler: (args) =>
+                console.log(lessthan(args))
         })
 
-        // })
-        // .command({
-        //     command: 'create',
-        //     describe: 'Create a new movie',
-        //     builder: { producer, title },
-        //     handler: async (args) => {                                    
-        //         console.log(await createMovie(args))
 
-        //     }
-        // })
-        // .command({
-        //     command: 'edit',
-        //     describe: 'Edit a movie',
-        //     builder: { id, producer, title },
-        //     handler: async (args) => {
-        //         console.log(await editMovie(args))
-        //     }
-        // })
-        // .command({
-        //     command: 'remove',
-        //     describe: 'Remove a movie by ID',
-        //     builder: { id },
-        //     handler: async (args) => {
-        //         await removeMovie(args.id)
-        //         console.log('deleted')
-        //     }
-        // })
         .locale('en')
         .strict()
         .help()
