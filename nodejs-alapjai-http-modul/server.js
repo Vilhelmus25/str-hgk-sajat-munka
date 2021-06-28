@@ -1,37 +1,13 @@
-const { ok } = require('assert')
 const http = require('http')
-const url = require('url')
-
 const SiteRouter = require('./router/site.router')
-const logger = require('./utils/logger')
 
-const port = 8080
-
-const options = {
-    hostname: '',
-    port: port,
-    path: '/',
-    method: 'GET'
-};
-
+//const port = 8080       // mi van ha nem fixen beégetve akarjuk a port-ot, hanem környezeti változóból
+const port = process.env.PORT || 8080       // abban az esetben, ha van olyan környezeti változónk, aminek van portszáma, akkor használja azt, ha nincs akkor a 8080 -at
+// terminals: set PORT=8081
 
 http.createServer((req, res) => {       // a { url } a req helyett van
-    SiteRouter[req.url] ? SiteRouter[req.url](res) : SiteRouter['/404'](res)        // és akkor a req.url helyett url-t lehet írni
+    SiteRouter[req.url] ? SiteRouter[req.url](req, res) : SiteRouter['/404'](req, res)        // és akkor a req.url helyett url-t lehet írni
 })
     .on('error', err => console.log(`Server error: ${err.message}`))
-    .on('listening', () => {
-        console.log(`Server running at http://127.0.0.1:${port}`)
-
-    })
-    .on('open', (req) => {
-        console.log(req.protocol + '://' + req.get('host') + req.originalUrl)
-    })
+    .on('listening', () => console.log(`Server is running at http://127.0.0.1:${port}`))        // így elegánsabb ha netán hiba van
     .listen(port)
-
-// http.get(options, (res) => {
-//     res.on('data', (d) => {
-
-//     })
-// }).on('error', (e) => {
-//     console.error(e);
-// });

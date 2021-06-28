@@ -1,10 +1,10 @@
 const SiteController = require('../controller/site.controller')
 
 const SiteRouter = {
-    '/': res => SiteController.index(res),
-    '/about': res => SiteController.about(res),
-    '/contact': res => SiteController.contact(res),
-    '/404': res => SiteController.error404(res)
+    '/': (req, res) => SiteController.index(req, res),
+    '/about': (req, res) => SiteController.about(req, res),
+    '/contact': (req, res) => SiteController.contact(req, res),
+    '/404': (req, res) => SiteController.error404(req, res)
 }
 
 module.exports = Object.freeze(SiteRouter)
