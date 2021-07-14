@@ -1,0 +1,90 @@
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:11:02 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:11:07 +0000] \"GET /person HTTP/1.1\" 200 319 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:12:49 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:12:53 +0000] \"GET /person HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:13:14 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:13:18 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:14:23 +0000] \"GET /person/count HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:14:27 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:16:28 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:16:32 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:20:04 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:20:08 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:22:22 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:22:26 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:22:33 +0000] \"GET /person/count HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"ok":0,"code":8000,"codeName":"AtlasError","name":"MongoError","level":"error"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:24:17 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:24:22 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:28:52 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:28:56 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:29:06 +0000] \"POST /person HTTP/1.1\" 400 49 \"http://localhost:3000/person\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:31:13 +0000] \"POST /person HTTP/1.1\" 400 49 \"http://localhost:3000/person\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:33:24 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:33:28 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:33:36 +0000] \"GET /ESZTdb HTTP/1.1\" 404 145 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:33:44 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:33:50 +0000] \"POST /person HTTP/1.1\" 400 49 \"http://localhost:3000/person\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:36:57 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:37:02 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:37:16 +0000] \"POST /person HTTP/1.1\" 201 78 \"http://localhost:3000/person\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:37:33 +0000] \"POST /person HTTP/1.1\" 201 81 \"http://localhost:3000/person\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:38:08 +0000] \"POST /person HTTP/1.1\" 201 80 \"http://localhost:3000/person\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:38:19 +0000] \"POST /person HTTP/1.1\" 201 79 \"http://localhost:3000/person\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:38:32 +0000] \"POST /person HTTP/1.1\" 201 77 \"http://localhost:3000/person\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:38:43 +0000] \"POST /person HTTP/1.1\" 400 49 \"http://localhost:3000/person\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:38:47 +0000] \"POST /person HTTP/1.1\" 201 84 \"http://localhost:3000/person\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:39:05 +0000] \"GET /person HTTP/1.1\" 200 486 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:41:38 +0000] \"GET /person HTTP/1.1\" 200 550 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:42:13 +0000] \"GET /person/count HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:42:13 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:42:35 +0000] \"GET /person/count HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [14/Jul/2021:18:44:01 +0000] \"GET /person/vaccinated HTTP/1.1\" 404 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [14/Jul/2021:18:44:05 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [14/Jul/2021:18:44:09 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [14/Jul/2021:18:44:13 +0000] \"GET /person/count HTTP/1.1\" 404 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [14/Jul/2021:18:44:25 +0000] \"GET /person/vaccinated HTTP/1.1\" 404 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:44:31 +0000] \"GET /person/2 HTTP/1.1\" 404 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:44:35 +0000] \"GET /person/ HTTP/1.1\" 200 550 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:45:05 +0000] \"GET /person$exists HTTP/1.1\" 404 152 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:45:09 +0000] \"GET /person/$exists HTTP/1.1\" 404 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:46:53 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:46:59 +0000] \"GET /person/count HTTP/1.1\" 404 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:47:27 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:47:44 +0000] \"GET /person/count HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:47:44 +0000] \"GET /person/ HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:47:59 +0000] \"GET /person/count HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:54:21 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:54:25 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [14/Jul/2021:18:55:03 +0000] \"GET /person/count HTTP/1.1\" 200 56 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [14/Jul/2021:18:55:04 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:127.0.0.1 - - [14/Jul/2021:18:55:12 +0000] \"GET /person/count HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:55:45 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:56:17 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:58:00 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:58:03 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:58:10 +0000] \"GET /person/count HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:58:32 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:58:36 +0000] \"GET /person HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:58:41 +0000] \"GET /person/count HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [14/Jul/2021:18:59:41 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"\n","level":"info"}
+{"message":"MongoDB connection has been established successfully.","level":"info"}
