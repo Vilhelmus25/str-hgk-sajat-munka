@@ -24,8 +24,7 @@ controller.get('/:id/vaccinated', (req, res, next) => {
 
 // Create
 controller.post('/', (req, res, next) => {
-    const { lastName, firstName, vaccine } = req.body;
-    if (!lastName || !firstName || !vaccine) {
+    if (!last_name || !first_name || !email) {
         return next(            // a next megszakítja a jelenlegi folyamatot és továbbdobja a következő middleware-nek a kérést
             new createError.BadRequest("Missing properties!")
         )
