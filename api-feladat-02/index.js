@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-//const bodyParser = require('body-parser');
+const bodyParser = require('body-parser');
 const port = 3000;
 
-//app.use(bodyParser.json());         
+app.use(bodyParser.json());
 app.use('/person', require('./controllers/person/routes'))
 
 app.listen(port, () => {
