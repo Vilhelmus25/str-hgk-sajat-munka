@@ -1,0 +1,7 @@
+{
+    "database": {
+        "username": "ESZTdb",
+        "password": "bNfjqsuyFOmKksaa",
+        "host": "nodejsapicluster.nzbyf.mongodb.net/ESZTdb?retryWrites=true&w=majority"
+    }
+}
