@@ -19,7 +19,7 @@ export class AuthService {
   loginUrl = `${this.config.apiUrl}login`;
   logoutUrl = `${this.config.apiUrl}logout`;
   storageName = 'currentUser';
-  currentUserSubject: BehaviorSubject<User | null> = new BehaviorSubject<User | null>(null);
+  currentUserSubject: BehaviorSubject<User | null> = new BehaviorSubject(null);
   lastToken: string = '';
   // user: INameToValueMap = {}
 
@@ -31,11 +31,11 @@ export class AuthService {
     private userService: UserService,
   ) { }
 
-  get currentUserValue(): User | null {
+  get currentUserValue(): (User | null) {
     return this.currentUserSubject.value;
   }
 
-  login(loginData: User): Observable<User | User[] | null> {
+  login(loginData: (User)): Observable<{ accessToken: string } | User | null | User[]> {
     return this.http.post<{ accessToken: string }>(     // küldök a szervernek egy http kérést a szervernek, aki az authentikációt végzi
       this.loginUrl,
       { email: loginData.email, password: loginData.password }      // megkapja az emailt és a passwordot

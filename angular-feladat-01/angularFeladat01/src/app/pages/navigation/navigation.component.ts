@@ -13,9 +13,10 @@ export class NavigationComponent implements OnInit, OnDestroy {
 
   navigation = this.config.navigation;
   loginStatus = false;
-  userSub: Subscription = new Subscription();        // feliratkozásokat tárolok
+  userSub!: Subscription; // feliratkozásokat tárolok
+  // feliratkozásokat tárolok
 
-  user: User | null = new User();
+  user: User | null = null;
 
   constructor(
     private config: ConfigService,
