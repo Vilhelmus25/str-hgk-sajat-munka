@@ -14,7 +14,7 @@ export class NavigationComponent implements OnInit, OnDestroy {
   navigation = this.config.navigation;
   loginStatus = false;
 
-  user: User | null = null;
+  user: User | null = new User();
 
   constructor(
     private config: ConfigService,

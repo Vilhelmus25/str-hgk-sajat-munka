@@ -11,6 +11,8 @@ import { AdminComponent } from './pages/admin/admin.component';
 import { LoginComponent } from './pages/login/login.component';
 import { NavigationComponent } from './pages/navigation/navigation.component';
 import { UsersComponent } from './pages/users/users.component';
+import { JwtInterceptorService } from './service/jwt-interceptor.service';
+import { ForbiddenComponent } from './pages/forbidden/forbidden.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { UsersComponent } from './pages/users/users.component';
     AdminComponent,
     LoginComponent,
     NavigationComponent,
-    UsersComponent
+    UsersComponent,
+    ForbiddenComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,9 @@ import { UsersComponent } from './pages/users/users.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [      // itt meg kell adni a provide-ot mint szolgáltatót; Ez fontos, hogy be legyen állítva
+    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptorService, multi: true }    // a multi azt jelenti, hogy többet is fel lehet venni, nem csak egyet
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
