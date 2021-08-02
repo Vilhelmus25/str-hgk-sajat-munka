@@ -13,13 +13,14 @@ export class NavigationComponent implements OnInit, OnDestroy {
 
   navigation = this.config.navigation;
   loginStatus = false;
+  userSub: Subscription = new Subscription();        // feliratkozásokat tárolok
 
   user: User | null = new User();
 
   constructor(
     private config: ConfigService,
     private auth: AuthService,        // hitelesítéshez
-    private userSub: Subscription              // feliratkozásokat tárolok
+
   ) { }
 
   ngOnInit(): void {

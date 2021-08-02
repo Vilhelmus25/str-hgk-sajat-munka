@@ -7,9 +7,9 @@ import { User } from '../model/user';
 import { Router } from '@angular/router';
 import { UserService } from './user.service';
 
-interface INameToValueMap {
-  [key: number]: any;
-}
+// interface INameToValueMap {
+//   [key: number]: any;
+// }
 
 @Injectable({
   providedIn: 'root'
@@ -21,7 +21,7 @@ export class AuthService {
   storageName = 'currentUser';
   currentUserSubject: BehaviorSubject<User | null> = new BehaviorSubject<User | null>(null);
   lastToken: string = '';
-  user: INameToValueMap = {}
+  // user: INameToValueMap = {}
 
 
   constructor(
@@ -53,9 +53,9 @@ export class AuthService {
             localStorage.removeItem(this.storageName);    // kivesszük a localestorage-ből, ha benne lett volna
             this.currentUserSubject.next(null);         // tovább nextelem a null-t mert nem sikerült belépni
           } else {
-            this.user[0].token = this.lastToken;             // a user egy tömb lesz és az első eleme lesz maga a felhasználó, akivel dolgozni szeretnék
-            localStorage.setItem(this.storageName, JSON.stringify(this.user[0]));
-            this.currentUserSubject.next(this.user[0]);      // minden feliratkozónak szólok, hogy megjött a felhasználói adat
+            user[0].token = this.lastToken;             // a user egy tömb lesz és az első eleme lesz maga a felhasználó, akivel dolgozni szeretnék
+            localStorage.setItem(this.storageName, JSON.stringify(user[0]));
+            this.currentUserSubject.next(user[0]);      // minden feliratkozónak szólok, hogy megjött a felhasználói adat
           }
         })
       );
